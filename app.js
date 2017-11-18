@@ -1,5 +1,4 @@
-function onReady(){
-  function onReady(){
+ function onReady(){
     const toDos = [];
     const addToDoForm = document.getElementById('addToDoForm');
 
@@ -31,7 +30,6 @@ function onReady(){
 
         toDoList.appendChild(newLi);
         newLi.appendChild(checkbox);
-        const butt
     });
 
     addToDoForm.addEventListener('submit', event =>{
